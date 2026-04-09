@@ -1,0 +1,22 @@
+What is HTMl ?
+=> HTML stands for Hyper text markup language.
+=> It is used to create web pages and web applications.
+
+
+HTML Paragraph Tags :
+<p align="left">
+<p align="right">
+<p align="center">
+<p align="justify">
+<pre>
+
+Headings Tags:
+h1 to h6
+
+Color Tags:
+=> Text Color
+=>Background Color
+
+HTML List Tags :
+=> Unorder List
+=> Order List
