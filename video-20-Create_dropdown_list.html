@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown List Example</title>
+    <style>
+         select {
+        background-color: green;
+        color: white;
+        width: 20%;
+        height: 1cm;
+    }
+
+    select option {
+        background-color:lightgray;
+        color: black;
+    }
+    </style>
+</head>
+<body>
+    <label for="cars"><big> Choose a car:</big> </label>
+    <select name="cars" id="cars">
+        <option value="">--Select a Car--</option>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <select>
+        <option>--Academics--</option>
+        <option>9th</option>
+        <option>10th</option>
+        <option>11th</option>
+        <option>12th</option>
+    </select>
+
+    <select>
+        <option>--Computers Courses--</option>
+        <optgroup label="Undergraduate">
+             <option>BCA</option>
+            <option>BE</option>
+            <option>BSc CS</option>
+        </optgroup>
+        <optgroup label="Postgraduate">
+            <option>MCA</option>
+            <option>MSc CS</option>
+            <option>MS in Computer Science</option>
+        </optgroup>
+    </select>
+
+    <select>
+        <option>--Spoken English Courses--</option>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+    </select>
+</body>
+</html>
