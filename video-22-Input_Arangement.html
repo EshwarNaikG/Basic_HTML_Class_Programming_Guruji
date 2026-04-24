@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input Arangement </title>
+    <style>
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+        input{
+                border-color:green;
+                border-width: 2px;
+                border-radius: 5px;
+                padding: 5px;
+        }
+        form{
+            background-color: darkblue;
+            color: white;
+            width: 30%;
+            padding: 20px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:rgb(44, 27, 27)
+        }
+        h1{
+            text-align: center;
+        }
+        #sub{
+            margin-left: 45%;
+        }
+       
+    </style>
 </head>
 <body>
     <form action="">
+        <h1> Registration Form </h1>
         <label> Name </label> 
             <input type="text"> <br><br>
         <label>Father Name </label>
@@ -15,7 +48,7 @@
              <input type="email"> <br><br>
         <label>Password </label>
             <input type="password"> <br><br>
-        <input type="submit">
+        <input type="submit" id="sub">
     </form>
 </body>
 </html>

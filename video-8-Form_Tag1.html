@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+        input{
+            padding: 5px;
+            border-color: green;
+            border-width: 2px;
+            border-radius: 5px;
+        }
+        form{
+            background-color:aqua;
+            color: black;
+            width: 30%;
+            padding: 20px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border-radius: 10%;
+             background-color:rgb(44, 27, 27)
+        }
+        h1{
+            text-align: center;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Form Tag</h1>
     <form action="">
+        <h1>Login Form</h1>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
 
@@ -17,7 +47,7 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Login">
     </form>
 </body>
 </html>
