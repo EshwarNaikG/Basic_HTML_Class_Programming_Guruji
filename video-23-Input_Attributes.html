@@ -3,9 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input Attributes </title>
+    <title>Input Attributes in Forms</title>
+    <style>
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+        form{
+            background-color: darkblue;
+            color: white;
+            width: 30%;
+            padding: 20px;
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <h1>Input Attributes in Forms</h1>
+
+    <h3>1. Placeholder Attribute</h3>
+    <form action="">
+    <label for="name">UserName:</label>
+    <input type="text" id="name" placeholder="Enter your name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter your password"><br><br>
+    <input type="submit" value="Submit">
+    </form> 
+    <br><br><br>
+    <hr>
+
+    <h3>2. Required Attribute</h3>
+    <form action="">
+        <label for="name">UserName:</label>
+            <input type="text" id="name" required><br><br>
+        <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+        <label for="password">Password:</label>
+            <input type="password" id="password" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br><br>
+    <hr>
+
+    <h3>3. Disabled Attribute</h3>
+    <form action="">
+        <label for="name">UserName:</label>
+            <input type="text" id="name" disabled value="Eshwara Naik G"><br><br>
+        <label for="email">Email:</label>
+            <input type="email" id="email" disabled value="eshwarnaik79@gmail.com"><br><br>
+        <label for="password">Password:</label>
+            <input type="password" id="password" disabled value="12345"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br><br>
+    <hr>
+
+    <h3>4. Readonly Attribute</h3>
+    <form action="">
+        <label for="name">UserName:</label>
+            <input type="text" id="name" readonly value="Eshwara Naik G"><br><br>
+        <label for="email">Email:</label>
+            <input type="email" id="email" readonly value="eshwarnaik79@gmail.com"><br><br>
+        <label for="password">Password:</label>
+            <input type="password" id="password" readonly value="12345"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br><br>
+    <hr>
+
+    <h3>5. Maxlength Attribute</h3>
+    <form action="">
+        <label for="name">UserName:</label>
+            <input type="text" id="name" maxlength="10"><br><br>
+        <label for="email">Email:</label>
+            <input type="email" id="email" maxlength="20"><br><br>
+        <label for="password">Password:</label>
+            <input type="password" id="password" maxlength="5"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br><br>
+    <hr>
+
+    <h3>6. Value Attribute</h3>
+    <form action="">
+        <label for="name">UserName:</label>
+            <input type="text" id="name" value="Eshwara Naik G"><br><br>
+        <label for="email">Email:</label>
+            <input type="email" id="email" value="eshwarnaik79@gmail.com"><br><br>
+        <label for="password">Password:</label>
+            <input type="password" id="password" value="12345"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <hr>
+
+    <h3>7. Size Attribute</h3>
+    <form action="">
+        <label for="name">UserName:</label>
+            <input type="text" id="name" size="20"><br><br>
+        <label for="email">Email:</label>
+            <input type="email" id="email" size="30"><br><br>
+        <label for="password">Password:</label>
+            <input type="password" id="password" size="10"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <hr>
+
+    <h3>8. Min and Max Attributes</h3>
+    <form action="">
+        <label for="age">Age:</label>
+            <input type="number" id="age" min="0" max="120"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <hr>
+
+    <h3>9. Step Attribute</h3>
+    <form action="">
+        <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" step="2"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <hr>
+
+    <h3>10. Auto Focus Attribute</h3>
+    <form action="">
+        <label for="name">UserName:</label>
+            <input type="text" id="name" autofocus><br><br>
+        <label for="email">Email:</label>
+            <input type="email" id="email"><br><br>
+        <label for="password">Password:</label>
+            <input type="password" id="password"><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
