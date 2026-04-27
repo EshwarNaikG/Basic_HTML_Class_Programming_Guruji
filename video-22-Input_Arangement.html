@@ -14,12 +14,14 @@
                 border-width: 2px;
                 border-radius: 5px;
                 padding: 5px;
+
         }
         form{
             background-color: darkblue;
             color: white;
             width: 30%;
             padding: 20px;
+           
         }
         body{
             display: flex;
@@ -27,12 +29,24 @@
             align-items: center;
             height: 100vh;
             background: linear-gradient(to right, orange, white, green);
+            
         }
         h1{
             text-align: center;
         }
         #sub{
             margin-left: 45%;
+        }
+
+        /* Responsive Design*/
+        @media (max-width: 600px) {
+            form {
+                width: 90%;
+                flex-wrap: wrap;
+            }
+            #sub{
+                margin-left: 40%;
+            }
         }
        
     </style>
